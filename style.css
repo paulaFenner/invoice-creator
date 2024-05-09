@@ -1,0 +1,81 @@
+/* =================
+STYLE - MOBILE FIRST 
+================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #2b283a;
+  --white: #ffffff;
+  --medium-grey: #d5d4d8;
+  --dark-grey: #918e9b;
+  --accent: #3770ed;
+  --accent-dark: #1f2937;
+  --accent-light: #f5f5f5;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+/* =================
+  Typography 
+ ================= */
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 0.75rem;
+  color: var(--dark-grey);
+  line-height: 1.25rem;
+}
+
+p {
+  font-size: 0.75rem; /* Regular paragraph text */
+}
+
+header p {
+  font-size: 1rem;
+}
+
+/* =================
+  Layout
+ ================= */
+
+header {
+  padding: 3em;
+  background-color: var(--accent-light);
+  color: var(--black);
+}
+
+.container {
+  width: 80%;
+  padding: 2.5em;
+  margin: 0 auto;
+}
+
+.existing-tasks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.invoice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sum-line {
+  border-top: 1px solid var(--dark-grey);
+}
